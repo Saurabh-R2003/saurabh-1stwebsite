@@ -61,7 +61,7 @@ a:hover{
 
 body{
 
-    background-image: url(images/bgblack.png);
+    background-image: url(bgblack.png);
     background-attachment:fixed;
     background-size: cover;
     font-family: montserrat;
