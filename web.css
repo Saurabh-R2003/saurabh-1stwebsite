@@ -9,7 +9,7 @@
     height: 100px;
     text-decoration: none;
     width:auto;
-    background-color:#232b2bf5;
+    background-color:black;
     box-sizing:border-box;
     display:flex;
     justify-content:flex-end;
@@ -19,7 +19,7 @@
 .logo{
     
     height: 55px;
-    width: 55px;
+    width: 120px;
     margin-left: 30px;
     margin-top: 20px;
     margin-right:auto;
@@ -55,9 +55,28 @@
 .menu{
     cursor: pointer;
 }
+a,.signlnk{
+    transition: 0.2s;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+
+}
+a:after,.explore{
+    content: "";
+    position: absolute;
+    background-color: #FF652F;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom:-10px;
+    transition:0.3s;
+}
 a:hover{
 
-    color: white;
+    color: aliceblue;
+}
+a:hover:after,.explore{
+    width:100%;
 }
 
 body{
@@ -238,18 +257,14 @@ h4{
     color: #1e2323;
     border-radius: 10px;
     transition: 0.15s;
+    margin-top: 50px;
+    
 }
 
 .explore:hover{
-    background-color: #f98256;
-    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.356);
-
-
-}
-.explore{
-
-    font-size: xxlarge;
-    color: black;
+    background-color:#313a3a;
+    box-shadow: 3px 3px 15px rgba(255, 101, 47, 1);
+    color:#FF652F;
 }
 
 h6{
@@ -258,6 +273,23 @@ h6{
 
 .me{
     margin-left: 200px;
+}
+
+.insta{
+    height: 35px;
+    width:35px;
+    margin-bottom: 10px;
+}
+.x{
+    height: 30px;
+    width:30px;
+    margin-bottom: 10px;
+}
+.lnk{
+    margin-top: px;
+    height: 45px;
+    width:45px;
+    margin-bottom: 3px;
 }
 
 
