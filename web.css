@@ -9,7 +9,7 @@
     height: 100px;
     text-decoration: none;
     width:auto;
-    background-color:black;
+    background-color:transparent;
     box-sizing:border-box;
     display:flex;
     justify-content:flex-end;
